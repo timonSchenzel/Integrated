@@ -1,5 +1,5 @@
 {
-    "name": "laracasts/integrated",
+    "name": "timonschenzel/integrated",
     "description": "Simple, intuitive integration testing with PHPUnit.",
     "keywords": ["testing", "laravel", "goutte", "integration", "laracasts"],
     "license": "MIT",
