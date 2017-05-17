@@ -8,7 +8,7 @@ use Laracasts\Integrated\Database\Adapter;
 use Laracasts\Integrated\Emulator;
 use Goutte\Client;
 
-abstract class Goutte extends \PHPUnit_Framework_TestCase implements Emulator
+abstract class Goutte extends \PHPUnit\Framework\TestCase implements Emulator
 {
     use IntegrationTrait, WorksWithDatabase;
 
