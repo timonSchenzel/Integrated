@@ -16,7 +16,7 @@ use WebDriver\WebDriver;
 use WebDriver\Element;
 use WebDriver\Session;
 
-abstract class Selenium extends \PHPUnit_Framework_TestCase implements Emulator, JavaScriptAwareEmulator
+abstract class Selenium extends \PHPUnit\Framework\TestCase implements Emulator, JavaScriptAwareEmulator
 {
     use IntegrationTrait, WorksWithDatabase;
 
